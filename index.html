@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website | Sharon</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8f2d12507d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+<div id="header">
+<div class="container">
+    <nav>
+      <img src="images/Sharon.png" class="logo">
+      <ul id="sidemenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+         <li><a href="#services">Services</a></li>
+         <li><a href="#portfolio">Portfolio</a></li>
+         <li><a href="#contact">Contact</a></li>
+
+         <i class="fas fa-times" onclick="closemenu()"></i>
+      </ul> 
+      <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>Front-end developer</p>
+        <h1>Hi, I'm <span>Esther Sharon</span><br></h1>
+    </div>
+</div>
+</div>
+<!-- -----------About-------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user1.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About Me</h1>
+       <p>I'm a maverick CS grad with 2 years of experience as Senior Software Engineer in IT industry.My expertise lies in working closely with clients to understand their business needs and requirements.
+        Detail-oriented, responsible,
+         and committed engineer with a get-it-done,on-time, and high-quality product spirit.Currently pursuing front-end 'cause why not give a shot for your passion?</p>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Work Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills" >
+            <ul>
+                <li><span>Web development</span><br>HTML5,CSS3,Javascript</li>
+                <li><span>Blogging</span><br>Spilling contents like confetti </li>
+                <li><span>Front-end web development</span><br>React js library</li>
+
+            </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>April 2023 - September 2023</span><br>Senior Analyst/Senior Software engineer at Capgemini,Bengaluru</li>
+                <li><span>September 2021 - March 2023</span><br>Analyst/Software engineer at Capgemini,Bengaluru</li>
+                <li><span>Feb 2021 - April 2021</span><br>Intern as Junior Content Writer at Careers 720</li>
+
+            </ul>
+        </div>
+
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2017 - 2021</span><br>B.E,Computer Science from Jeppiaar SRR Engineering college,Chennai</li>
+                <li><span>2016 - 2017</span><br>HSC from Holy Cross Anglo Indian Higher Secondary School,Thoothukudi</li>
+                <li><span>2015</span><br>SSLC from Holy Cross Anglo Indian Higher Secondary School,Thoothukudi</li>
+
+            </ul>
+        </div>
+</div>
+        </div>
+    </div>
+</div>
+<!-- --------------------------Services----------------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My Services</h1>
+        <div class="services-list">
+<div>
+    <i class="fa-solid fa-code"></i>
+    <h2>Front-end design</h2>
+    <p>Responsive websites - Joy in disguise</p>
+    <a href="https://github.com/sharry09" target="_blank">Learn more</a>
+</div>
+
+<div>
+    <i class="fa-solid fa-trophy"></i>
+    <h2>Certifications/Awards</h2>
+    <p>Atleast try! That's what it takes to be everything.</p>
+    <a href="https://www.linkedin.com/in/esther-jeeva-sharon-d-3b91a3230/details/certifications/" target="_blank">Learn more</a>
+</div>
+
+<div>
+    <i class="fa-solid fa-pen-nib"></i>
+    <h2>Content creation</h2>
+    <p>Do check out the book "The Sharon Chronicles" written by me from the link below</p>
+    <a href="https://store.bookleafpub.com/product-page/the-sharon-chronicles" target="_blank">Learn more</a>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<!-- --------------------Portfolio---------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-one.jpg" alt="">
+                <div class="layer">
+                    <h3>Simon Game</h3>
+                    <p>Simon is an electronic game of memory skill which creates
+                         a series of tones and lights and requires a user to repeat the sequence.</p>
+                <a href=" https://sharry09.github.io/Simon-Game-Javascript/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpg" alt="">
+                <div class="layer">
+                    <h3>Bookskie App</h3>
+                    <p>A website developed using HTML, CSS and Javascript intended to grasp the core JS concepts. Check it out using the link below!</p>
+                <a href="https://earnest-halva-b6bd89.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+
+            </div>
+            <div class="work">
+                <img src="images/work1.jpg" alt="">
+                <div class="layer">
+                    <h3>Photo Gallery</h3>
+                    <p>A gallery to experience the images' color and view the images using previous,next options. Check it out using the link below!</p>
+                <a href="https://sharry09.github.io/PhotoGallery/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+            </div>
+        </div>
+<a href="https://github.com/sharry09" target="_blank" class="btn">See more</a>
+    </div>
+</div>
+<!-- ---------------Contact--------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+<h1 class="sub-title">Contact Me</h1>
+<p><i class="fas fa-paper-plane"></i>esthersharon2909@gmail.com</p>
+<p><i class="fas fa-phone-square-alt"></i>9677967448</p>
+<div class="social-icons">
+    <a href="https://www.linkedin.com/in/esther-jeeva-sharon-d-3b91a3230/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com/sharry09" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.instagram.com/_thesharonchronicles_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.youtube.com/channel/UCl1XcwBCU422gU8MNNqoicw?sub_confirmation=1" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+    <a href="https://linktr.ee/esthersharon" target="_blank"><i class="fa-brands fa-blogger-b"></i></a>
+
+</div>
+<!-- -------------------------Download resume/CV--------------- -->
+<a href="images/resume.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="email" name="Email" placeholder="your email" required>
+                    <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------Copyright ------------------------------- -->
+    <div class="copyright">
+        <p>Copyright &copy; Esther Sharon.With <i class="fas fa-heart"></i> Sharon</p>
+    </div>
+</div>
+<!-- --------------------------Javascript Code -------------------------- -->
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+for(tablink of tablinks){
+    tablink.classList.remove("active-link")
+}
+for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab")
+}
+event.currentTarget.classList.add("active-link")
+document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+<script>
+    var side_menu=document.getElementById("sidemenu");
+    // defining function
+    function openmenu(){
+side_menu.style.right="0";
+    }
+    function closemenu(){
+side_menu.style.right="-200px";
+    } 
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxSYMb7uINMdLEl0JbgIrNNykG5jukHOQ2AxulWSE1EccJ5pZwgWfM784lf3703lFTi/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
